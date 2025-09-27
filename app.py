@@ -26,9 +26,9 @@ def load_model(model_file):
 	return model
 
 # MODELS
-PIPE_TITLE_vs_TYPE_PREDICTOR =load_model('models/pipe_lr_cv_title_type_prediction_sept_27_2021_model.pkl')
-PIPE_DESC_vs_TYPE_PREDICTOR =load_model('models/pipe_lr_cv_type_desc_prediction_sept_27_2021_model.pkl')
-PIPE_DESC_vs_RATING_PREDICTOR =load_model('models/pipe_nb_desc_rating_sept_27_2021_model.pkl')
+PIPE_TITLE_vs_TYPE_PREDICTOR =load_model('model/pipe_lr_cv_title_type_prediction_sept_27_2021_model.pkl')
+PIPE_DESC_vs_TYPE_PREDICTOR =load_model('model/pipe_lr_cv_type_desc_prediction_sept_27_2021_model.pkl')
+PIPE_DESC_vs_RATING_PREDICTOR =load_model('model/pipe_nb_desc_rating_sept_27_2021_model.pkl')
 
 
 def plot_prediction_proba(pred_proba_df):
